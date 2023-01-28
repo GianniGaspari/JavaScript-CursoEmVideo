@@ -14,3 +14,6 @@ document.write('<br>')
 document.write(n1.toLocaleString('pr-BR', {style: 'currency', currency: 'USD'}))
 document.write('<br>')
 document.write(n1.toLocaleString('pr-BR', {style: 'currency', currency: 'EUR'}))
+
+let n2 = 'abobora'
+document.write(n2.toUpperCase())   // precisa colocar em parênteses para acionar a função toUpperCase
